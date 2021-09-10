@@ -1,0 +1,204 @@
+html {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+body {
+    background-color: #18191c;
+}
+
+ul li {
+    position: relative;
+    top: 300px;
+    left: 110px;
+    display: inline;
+    padding: 10px 10px
+}
+
+.inner {
+    position: relative;
+    left: 45%;
+    top: -55px;
+}
+
+h1 {
+    position: relative;
+    top: 270px;
+    left: 230px;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 60px;
+}
+
+.ButtonC {
+    background: linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+    background-color: #ffffff;
+    border-radius: 4px;
+    border: 2px solid #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    color: #000000;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px 20px;
+    text-decoration: none;
+}
+
+.ButtonC:hover {
+    background: linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+    background-color: #ffffff;
+}
+
+.ButtonC:active {
+    position: relative;
+    top: 1px;
+}
+
+.ButtonS {
+    background: linear-gradient(to bottom, #18191c 5%, #18191c 100%);
+    background-color: #18191c;
+    border-radius: 4px;
+    border: 2px solid #525355;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px 20px;
+    text-decoration: none;
+}
+
+.ButtonS:hover {
+    background: linear-gradient(to bottom, #292a2d 5%, #292a2d 100%);
+    background-color: #292a2d;
+}
+
+.ButtonS:active {
+    position: relative;
+    top: 1px;
+}
+
+.star {
+    background: grey;
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    content: '';
+    border-radius: 100%;
+    transform: rotate(250deg);
+    opacity: 0.4;
+    animation-name: shimmer;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes shimmer {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 0.7;
+    }
+}
+
+.star1 {
+    top: 40%;
+    left: 10%;
+    animation-delay: 1s;
+}
+
+.star2 {
+    top: 60%;
+    left: 20%;
+    animation-delay: 3s;
+}
+
+.star3 {
+    top: 10%;
+    left: 30%;
+    animation-delay: 2s;
+}
+
+.star4 {
+    top: 90%;
+    left: 40%;
+}
+
+.star5 {
+    top: 20%;
+    left: 50%;
+    animation-delay: 0.5s;
+}
+
+@media (max-width: 768px) {
+    .inner {
+        display: none;
+    }
+    ul li {
+        display: inline-block;
+        justify-content: center;
+        position: relative;
+        top: 220px;
+        left: 60px;
+        padding: 10px, 10px;
+    }
+    html {
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+    .ButtonC {
+        background: linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+        background-color: #ffffff;
+        border-radius: 4px;
+        border: 2px solid #ffffff;
+        display: inline-block;
+        cursor: pointer;
+        color: #000000;
+        font-family: Arial;
+        font-size: 13px;
+        font-weight: bold;
+        padding: 8px 20px;
+        text-decoration: none;
+    }
+    .ButtonC:hover {
+        background: linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
+        background-color: #ffffff;
+    }
+    .ButtonC:active {
+        position: relative;
+        top: 1px;
+    }
+    .ButtonS {
+        background: linear-gradient(to bottom, #18191c 5%, #18191c 100%);
+        background-color: #18191c;
+        border-radius: 4px;
+        border: 2px solid #525355;
+        display: inline-block;
+        cursor: pointer;
+        color: #ffffff;
+        font-family: Arial;
+        font-size: 13px;
+        font-weight: bold;
+        padding: 8px 20px;
+        text-decoration: none;
+    }
+    .ButtonS:hover {
+        background: linear-gradient(to bottom, #292a2d 5%, #292a2d 100%);
+        background-color: #292a2d;
+    }
+    .ButtonS:active {
+        position: relative;
+        top: 1px;
+    }
+    h1 {
+        position: relative;
+        top: 220px;
+        left: 130px;
+        color: #ffffff;
+        font-family: Arial;
+        font-size: 65px;
+    }
+}
