@@ -21,4 +21,6 @@ Repository Created
 - after you download all package make `node .`
 - now go on [Click Here](https://localhost:5000/)
 
+# Note if you want change something or add and you don't know how write a issues and i can help you
+
 ## please live a star ⭐
